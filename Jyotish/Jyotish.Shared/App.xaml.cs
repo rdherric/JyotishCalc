@@ -16,6 +16,8 @@ using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Media.Animation;
 using Windows.UI.Xaml.Navigation;
 
+using Jyotish.Data.User;
+
 // The Blank Application template is documented at http://go.microsoft.com/fwlink/?LinkId=234227
 
 namespace Jyotish
@@ -91,11 +93,16 @@ namespace Jyotish
                 rootFrame.ContentTransitions = null;
                 rootFrame.Navigated += this.RootFrame_FirstNavigated;
 #endif
+                //Determine the Page to show based on whether there are
+                //any Profiles in the RoamingSettings
+                Type startType = (Profiles.All.Any() == true ?
+                    typeof(Jyotish.View.Profile.List) :
+                    typeof(Jyotish.View.Profile.Edit));
 
                 // When the navigation stack isn't restored navigate to the first page,
                 // configuring the new page by passing required information as a navigation
                 // parameter
-                if (!rootFrame.Navigate(typeof(View.Profile), e.Arguments))
+                if (!rootFrame.Navigate(startType, e.Arguments))
                 {
                     throw new Exception("Failed to create initial page");
                 }
