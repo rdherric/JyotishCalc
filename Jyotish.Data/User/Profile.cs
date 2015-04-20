@@ -1,7 +1,7 @@
 ﻿using System;
-using JyotishCalculator.Model.Location;
+using Jyotish.Data.Position;
 
-namespace JyotishCalculator.Model.User
+namespace Jyotish.Data.User
 {
     /// <summary>
     /// Profile stores a Jyotish profile for a User.
@@ -12,7 +12,7 @@ namespace JyotishCalculator.Model.User
         /// ID gets and sets the ID of the Profile for creating and
         /// deleting from the Profiles collection.
         /// </summary>
-        public int ID { get; set; }
+        internal Guid ID { get; set; }
 
         
         /// <summary>

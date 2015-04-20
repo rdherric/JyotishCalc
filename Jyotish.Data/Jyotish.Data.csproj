@@ -41,8 +41,8 @@
     <TargetPlatform Include="Windows, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Location\Coordinate.cs" />
-    <Compile Include="Location\LatLong.cs" />
+    <Compile Include="Position\Coordinate.cs" />
+    <Compile Include="Position\LatLong.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User\Profile.cs" />
     <Compile Include="User\Profiles.cs" />
