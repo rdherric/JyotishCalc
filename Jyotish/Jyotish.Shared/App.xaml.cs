@@ -47,7 +47,7 @@ namespace Jyotish
         /// search results, and so forth.
         /// </summary>
         /// <param name="e">Details about the launch request and process.</param>
-        protected override void OnLaunched(LaunchActivatedEventArgs e)
+        protected override async void OnLaunched(LaunchActivatedEventArgs e)
         {
 #if DEBUG
             if (System.Diagnostics.Debugger.IsAttached)
@@ -95,7 +95,7 @@ namespace Jyotish
 #endif
                 //Determine the Page to show based on whether there are
                 //any Profiles in the RoamingSettings
-                Type startType = (Profiles.All.Any() == true ?
+                Type startType = ((await Profiles.GetAll()).Any() == true ?
                     typeof(Jyotish.View.Profile.List) :
                     typeof(Jyotish.View.Profile.Edit));
 
