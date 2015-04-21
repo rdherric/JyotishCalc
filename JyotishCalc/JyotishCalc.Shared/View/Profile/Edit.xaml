@@ -8,6 +8,7 @@
     mc:Ignorable="d">
 
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Style="{ThemeResource HeaderTextBlockStyle}" Text="edit profile" />
+        <TextBlock x:Uid="Profile-Edit-Title-Edit" Style="{ThemeResource HeaderTextBlockStyle}" />
+        <TextBlock x:Uid="Profile-Edit-Title-New" Style="{ThemeResource HeaderTextBlockStyle}" />
     </StackPanel>
 </Page>

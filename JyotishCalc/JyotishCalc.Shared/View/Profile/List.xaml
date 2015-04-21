@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <TextBlock Style="{ThemeResource HeaderTextBlockStyle}" Text="profiles" />
+        <TextBlock x:Uid="Profile-List-Title" Style="{ThemeResource HeaderTextBlockStyle}" />
     </StackPanel>
 </Page>

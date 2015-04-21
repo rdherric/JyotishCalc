@@ -34,4 +34,7 @@
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModel\" />
   </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+  </ItemGroup>
 </Project>
