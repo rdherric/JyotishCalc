@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JyotishCalc.Data.Position
+namespace JyotishCalc.Model.Position
 {
     /// <summary>
     /// Coordinate represents a Latitude or Longitude coordinate

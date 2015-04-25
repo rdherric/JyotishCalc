@@ -11,9 +11,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyotishCalc.Windows", "Jyot
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyotishCalc.WindowsPhone", "JyotishCalc\JyotishCalc.WindowsPhone\JyotishCalc.WindowsPhone.csproj", "{179447B1-17AE-4FB2-9205-2D05B6F2FD8A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyotishCalc.Data", "JyotishCalc.Data\JyotishCalc.Data.csproj", "{57B78C26-9D05-4AAB-A65B-1F0643C63906}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyotishCalc.Services", "JyotishCalc.Services\JyotishCalc.Services.csproj", "{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JyotishCalc.Model", "JyotishCalc.Model\JyotishCalc.Model.csproj", "{57B78C26-9D05-4AAB-A65B-1F0643C63906}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
@@ -76,16 +76,6 @@ Global
 		{179447B1-17AE-4FB2-9205-2D05B6F2FD8A}.Release|x86.ActiveCfg = Release|x86
 		{179447B1-17AE-4FB2-9205-2D05B6F2FD8A}.Release|x86.Build.0 = Release|x86
 		{179447B1-17AE-4FB2-9205-2D05B6F2FD8A}.Release|x86.Deploy.0 = Release|x86
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|ARM.ActiveCfg = Debug|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|x64.ActiveCfg = Debug|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|x86.ActiveCfg = Debug|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|Any CPU.Build.0 = Release|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|ARM.ActiveCfg = Release|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|x64.ActiveCfg = Release|Any CPU
-		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|x86.ActiveCfg = Release|Any CPU
 		{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}.Debug|ARM.ActiveCfg = Debug|Any CPU
@@ -96,6 +86,16 @@ Global
 		{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}.Release|ARM.ActiveCfg = Release|Any CPU
 		{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}.Release|x64.ActiveCfg = Release|Any CPU
 		{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}.Release|x86.ActiveCfg = Release|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|ARM.ActiveCfg = Release|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|x64.ActiveCfg = Release|Any CPU
+		{57B78C26-9D05-4AAB-A65B-1F0643C63906}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

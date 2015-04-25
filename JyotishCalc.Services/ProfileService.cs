@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Linq;
-using JyotishCalc.Data.User;
+using JyotishCalc.Model.User;
 using JyotishCalc.Services.Base;
 
 namespace JyotishCalc.Services

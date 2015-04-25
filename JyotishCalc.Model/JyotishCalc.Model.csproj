@@ -8,8 +8,8 @@
     <ProjectGuid>{57B78C26-9D05-4AAB-A65B-1F0643C63906}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jyotish.Data</RootNamespace>
-    <AssemblyName>Jyotish.Data</AssemblyName>
+    <RootNamespace>Jyotish.Model</RootNamespace>
+    <AssemblyName>Jyotish.Model</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

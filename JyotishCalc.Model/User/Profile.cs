@@ -1,7 +1,7 @@
 ﻿using System;
-using JyotishCalc.Data.Position;
+using JyotishCalc.Model.Position;
 
-namespace JyotishCalc.Data.User
+namespace JyotishCalc.Model.User
 {
     /// <summary>
     /// Profile stores a Jyotish profile for a User.

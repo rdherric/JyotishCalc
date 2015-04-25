@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace JyotishCalc.Data.Position
+namespace JyotishCalc.Model.Position
 {
     /// <summary>
     /// LatLong represents a set of Latitude and Longitude

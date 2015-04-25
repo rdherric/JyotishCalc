@@ -151,10 +151,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\..\JyotishCalc.Data\JyotishCalc.Data.csproj">
-      <Project>{57b78c26-9d05-4aab-a65b-1f0643c63906}</Project>
-      <Name>JyotishCalc.Data</Name>
-    </ProjectReference>
     <ProjectReference Include="..\..\JyotishCalc.Services\JyotishCalc.Services.csproj">
       <Project>{f2096de4-b7ff-47bd-9a1d-f236db0f8d47}</Project>
       <Name>JyotishCalc.Services</Name>
