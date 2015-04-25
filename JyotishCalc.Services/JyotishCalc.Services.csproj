@@ -5,11 +5,11 @@
     <MinimumVisualStudioVersion>12.0</MinimumVisualStudioVersion>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{57B78C26-9D05-4AAB-A65B-1F0643C63906}</ProjectGuid>
+    <ProjectGuid>{F2096DE4-B7FF-47BD-9A1D-F236DB0F8D47}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Jyotish.Data</RootNamespace>
-    <AssemblyName>Jyotish.Data</AssemblyName>
+    <RootNamespace>JyotishCalc.Services</RootNamespace>
+    <AssemblyName>JyotishCalc.Services</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
@@ -34,18 +34,30 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+    <ProjectReference Include="..\JyotishCalc.Data\JyotishCalc.Data.csproj">
+      <Project>{57b78c26-9d05-4aab-a65b-1f0643c63906}</Project>
+      <Name>JyotishCalc.Data</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
     <TargetPlatform Include="WindowsPhoneApp, Version=8.1" />
     <TargetPlatform Include="Windows, Version=8.1" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Position\Coordinate.cs" />
-    <Compile Include="Position\LatLong.cs" />
+    <Compile Include="Base\FileServiceBase.cs" />
+    <Compile Include="ProfileService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="User\Profile.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.6.0.8\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

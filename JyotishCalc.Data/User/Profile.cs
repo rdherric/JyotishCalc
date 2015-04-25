@@ -12,7 +12,7 @@ namespace JyotishCalc.Data.User
         /// ID gets and sets the ID of the Profile for creating and
         /// deleting from the Profiles collection.
         /// </summary>
-        internal Guid ID { get; set; }
+        public Guid ID { get; set; }
 
         
         /// <summary>

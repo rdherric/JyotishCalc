@@ -1,14 +1,15 @@
-﻿<Page
-    x:Class="JyotishCalc.View.Profile.Edit"
+﻿<prism:VisualStateAwarePage
+    x:Class="JyotishCalc.Views.ProfileEditPage"
     xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:JyotishCalc.View.Profile"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:prism="using:Microsoft.Practices.Prism.StoreApps"
     mc:Ignorable="d">
 
     <StackPanel Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <TextBlock x:Uid="Profile-Edit-Title-Edit" Style="{ThemeResource HeaderTextBlockStyle}" />
         <TextBlock x:Uid="Profile-Edit-Title-New" Style="{ThemeResource HeaderTextBlockStyle}" />
     </StackPanel>
-</Page>
+</prism:VisualStateAwarePage>

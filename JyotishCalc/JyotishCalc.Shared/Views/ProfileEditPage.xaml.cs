@@ -12,17 +12,18 @@ using Windows.UI.Xaml.Data;
 using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
+using Microsoft.Practices.Prism.StoreApps;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=234238
 
-namespace JyotishCalc.View.Profile
+namespace JyotishCalc.Views
 {
     /// <summary>
     /// An empty page that can be used on its own or navigated to within a Frame.
     /// </summary>
-    public sealed partial class List : Page
+    public sealed partial class ProfileEditPage : VisualStateAwarePage
     {
-        public List()
+        public ProfileEditPage()
         {
             this.InitializeComponent();
         }

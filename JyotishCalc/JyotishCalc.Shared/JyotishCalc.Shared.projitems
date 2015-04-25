@@ -15,26 +15,26 @@
     <Compile Include="$(MSBuildThisFileDirectory)App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)View\Profile\List.xaml.cs">
-      <DependentUpon>List.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ProfileEditPage.xaml.cs">
+      <DependentUpon>ProfileEditPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)View\Profile\Edit.xaml.cs">
-      <DependentUpon>Edit.xaml</DependentUpon>
+    <Compile Include="$(MSBuildThisFileDirectory)Views\ProfileListPage.xaml.cs">
+      <DependentUpon>ProfileListPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Page Include="$(MSBuildThisFileDirectory)View\Profile\List.xaml">
-      <SubType>Designer</SubType>
-    </Page>
-    <Page Include="$(MSBuildThisFileDirectory)View\Profile\Edit.xaml">
+    <Page Include="$(MSBuildThisFileDirectory)Views\ProfileEditPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="$(MSBuildThisFileDirectory)Views\ProfileListPage.xaml">
+      <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)ViewModel\" />
   </ItemGroup>
   <ItemGroup>
-    <PRIResource Include="$(MSBuildThisFileDirectory)Strings\en-US\Resources.resw" />
+    <PRIResource Include="$(MSBuildThisFileDirectory)Assets\en-US\Resources.resw" />
   </ItemGroup>
 </Project>
