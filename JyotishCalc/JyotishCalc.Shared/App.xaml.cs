@@ -58,6 +58,9 @@ namespace JyotishCalc
         /// <returns>Empty Task object</returns>
         protected override Task OnLaunchApplicationAsync(LaunchActivatedEventArgs args)
         {
+            ProfileService svc = new ProfileService();
+            int x = svc.All.Count;
+
             //Navigate to the ProfileList
             this.NavigationService.Navigate("ProfileList", null);
 
